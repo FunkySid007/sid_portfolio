@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+
+    color: rgb(0, 0, 255);
+    font-size: 1.2rem;
+
+}
+
+main hr {
+    border: 0;
+    background: #c997f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.leftSection {
+    font-size: 2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 130px 0;
+
+}
+
+.firstSection>div {
+    width: 30%;
+
+
+}
+
+.leftSection {
+    font-size: 3rem;
+    /* margin: 70px 0; */
+    /
+}
+
+.leftSection .btns {
+    padding: 12px;
+    background: #1e2167;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+}
+
+.rightSection img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #1e2167;
+    border-radius: 46px;
+}
+
+
+.purple {
+    color: rgb(168, 108, 225);
+}
+
+.text-gray {
+    color: gray;
+    text-align: center;
+    /* text-decoration: underline; */
+}
+
+#element {
+    color: rgb(168, 108, 225);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+footer {
+    background-color: rgb(22, 0, 42);
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.leftSection .buttons {
+    padding: 50px 0;
+}
+
+.leftSection .buttons .btns a {
+    color: white;
+    text-decoration: none;
+}
+
+.leftSection .buttons .btns a:hover {
+    color: rgb(0, 0, 255);
+    font-size: 1.4rem;
+
+}
+
+
+.About {
+    text-align: center;
+}
+
+.me {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 18px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#aboutContent {
+    max-height: 400px;
+    /* Adjust the maximum height as needed */
+}
+
+.Pic img {
+    float: left;
+    height: 400px;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    margin-right: 30px;
+
+    border: 5px solid #1e2167;
+    border-radius: 46px;
+
+}
+
+/* .Card1{
+    display: flex;
+    margin: 10px;
+    padding: 40px;
+} */
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+.card {
+    width: 18rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card-text {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card-title {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 12px;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: justify;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    /* Existing styles for card */
+
+    /* Add hover effect styles */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    background-color: rgb(168, 108, 225);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.25);
+}
+
+
+
+.footer-first {
+    margin-bottom: 10px;
+}
+
+.social {
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social ul li {
+    margin: 0 10px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: gray;
+    /* Adjust the link color as needed */
+}
+
+.social ul li a:hover {
+    color: #1c5fd4;
+    box-shadow: inset 100px 0 0 0 rgb(168, 108, 225);
+
+    /* Adjust the link color on hover as needed */
+}
+
+.social ul li i {
+    font-size: 2em;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.footer-first h3 {
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.left {
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.left :hover {
+    color: rgb(0, 0, 255);
+    font-size: 1.2rem;
+}
